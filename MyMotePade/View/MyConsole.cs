@@ -27,7 +27,7 @@ namespace MyNotePade.View
             {
                 try
                 {
-                    switch (GetStringConsole("Выедите команду...").ToLower())
+                    switch (GetStringConsole("Введите команду...").ToLower())
                     {
                         case "h": PrintMenu(); break;
                         case "g": GetContent(); break;
